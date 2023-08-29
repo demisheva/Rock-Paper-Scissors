@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tools</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <h1>Rock-Paper-Scissors</h1>
+    <div class="rules-start">
+      <p>Rules:</p>
+      <ul>
+        <li>Scissors beats a paper</li>
+        <li>Paper beats rock</li>
+        <li>Rock beats scissors</li>
+      </ul>
+      <p>And we play up to three wins!</p>
+      <button class="btn-start-game" data-start>Start Game</button>
+    </div>
+    <div class="game hide" data-game>
+      <div class="global-results">
+        <div>
+          <p>You: <span class="global-score" data-your-global-score>0</span></p>
+        </div>
+        <div>
+          <p>
+            Computer:
+            <span class="global-score" data-computer-global-score>0</span>
+          </p>
+        </div>
+      </div>
+      <div class="selections">
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">✋</button>
+        <button class="selection" data-selection="scissors">✌</button>
+      </div>
+
+      <div class="results">
+        <div>
+          <p>You: <span class="result-score" data-your-score>0</span></p>
+        </div>
+        <div data-final-column>
+          <p>
+            Computer: <span class="result-score" data-computer-score>0</span>
+          </p>
+        </div>
+      </div>
+      <div class="reset">
+        <button class="btn-reset" data-reset>Reset</button>
+      </div>
+    </div>
+    <!-- <script src="app.js"></script> -->
+  </body>
+</html>

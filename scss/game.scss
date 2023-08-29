@@ -1,0 +1,56 @@
+.selections {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+
+  .selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 6rem;
+    transition: 100ms;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.results,
+.global-results {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.global-results {
+  color: #ed9500;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.global-score {
+  &.winner {
+    color: green;
+  }
+}
+.result-score {
+  margin-left: 0.1rem;
+  color: #333;
+}
+.result-selection {
+  opacity: 0.5;
+  font-size: 2rem;
+  &.winner {
+    opacity: 1;
+    font-size: 3rem;
+  }
+}
+.reset {
+  text-align: center;
+  margin: 1rem auto;
+}
+.hide {
+  display: none;
+}
