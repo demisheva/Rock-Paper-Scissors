@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors
-<p>GitHub Pages <a href='https://demisheva.github.io/Rock-Paper-Scissors/'>demisheva.github.io/Rock-Paper-Scissors/</a><p>
+
 
 <h1>TASK</h1>
 
